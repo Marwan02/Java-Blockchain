@@ -1,10 +1,11 @@
 import com.google.gson.GsonBuilder;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Launcher {
 
-    public static ArrayList<Block> blockchain = new ArrayList<Block>();
+    public static List<Block> blockchain = new ArrayList<Block>();
 
     public static void main(String[] args) {
         System.out.println("## Starting the Java Blockchain");
